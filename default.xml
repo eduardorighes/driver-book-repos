@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="yocto" fetch="git://git.yoctoproject.org/git/"/>
+	<remote name="yocto" fetch="git://git.yoctoproject.org/"/>
 	<default remote="yocto" revision="thud"/>
 
 	<project path="poky" name="poky"/>
