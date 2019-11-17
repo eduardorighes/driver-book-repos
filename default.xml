@@ -7,7 +7,7 @@
 
 	<project path="poky" name="poky"/>
 	<project path="meta-ti" name="meta-ti"/>
-	<project path="meta-emr" name="driver-book-meta-emr" remote="github"/>
+	<project path="meta-emr" name="driver-book-meta-emr" remote="github" revision="master"/>
 
 </manifest>
 
