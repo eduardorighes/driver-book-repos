@@ -3,11 +3,12 @@
 	
 	<remote name="yocto" fetch="git://git.yoctoproject.org/"/>
 	<remote name="github" fetch="git://github.com/eduardorighes/"/>
-	<default remote="yocto" revision="thud"/>
+	<default remote="yocto" revision="dunfell"/>
 
 	<project path="poky" name="poky"/>
-	<project path="meta-ti" name="meta-ti"/>
-	<project path="meta-emr" name="driver-book-meta-emr" remote="github" revision="master"/>
+	<project path="meta-ti" name="meta-ti" revision="dunfell"/>
+	<project path="meta-arm" name="meta-arm" revision="dunfell"/>
+	<project path="meta-emr" name="driver-book-meta-emr" remote="github"/>
 
 </manifest>
 
